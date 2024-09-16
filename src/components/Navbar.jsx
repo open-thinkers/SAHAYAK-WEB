@@ -22,14 +22,14 @@ const Navbar = (props) => {
           </span>
         </a>
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-        <Link to="/hotspot">
-        <button
-          type="button"
-          className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center"
-        >
-        Hotspots
-        </button>
-      </Link>
+          <Link to="/hotspot">
+            <button
+              type="button"
+              className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center"
+            >
+              Hotspots
+            </button>
+          </Link>
           <button
             onClick={toggleMenu}
             data-collapse-toggle="navbar-cta"
@@ -83,7 +83,7 @@ const Navbar = (props) => {
             </li>
             <li>
               <Link
-                to="/contact"
+                to="/"
                 className="block py-2 my-1 px-3 md:p-0 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:hover:text-blue-500"
                 aria-current="page"
               >
