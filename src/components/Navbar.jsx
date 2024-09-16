@@ -83,7 +83,7 @@ const Navbar = (props) => {
             </li>
             <li>
               <Link
-                to="/contact"
+                to="/"
                 className="block py-2 my-1 px-3 md:p-0 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:hover:text-blue-500"
                 aria-current="page"
               >
