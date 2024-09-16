@@ -22,7 +22,7 @@ const About = () => {
 
             <div className="w-full lg:w-1/2 order-2 lg:order-1">
               <img
-                src="./aboutImage.webp"
+                src="https://i.ibb.co/SyCcvkM/happy-young-woman-948023-6015-removebg.png"
                 alt="Sahayak Prototype"
                 className="w-full h-full object-cover image-animate"
               />
